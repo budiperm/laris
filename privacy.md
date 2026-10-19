@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Kebijakan Privasi — Laris: Kasir & Cicilan
 
-_Berlaku sejak: 19 Oktober 2026_
+_Berlaku sejak: 19 Oktober 2026 (diperbarui untuk fitur kasir)_
 
 Laris ("aplikasi") adalah aplikasi Android untuk mencatat penjualan, pembelian, stok, dan cicilan
 pembayaran barang bagi usaha kecil. Kebijakan ini menjelaskan data apa yang diolah aplikasi dan ke mana data itu pergi.
@@ -18,8 +18,8 @@ menerima, melihat, atau menyimpan data Anda.**
 Data yang Anda masukkan ke aplikasi, misalnya:
 
 - nama, nomor HP, dan alamat customer serta toko/supplier;
-- produk, harga modal, harga jual, stok, dan foto produk;
-- transaksi penjualan dan pembelian, DP, jadwal cicilan, pembayaran, biaya operasional;
+- produk, barcode, satuan, harga modal, harga jual dan grosir, stok, dan foto produk;
+- transaksi penjualan dan pembelian, retur, buka/tutup kasir, DP, jadwal cicilan, pembayaran, biaya operasional;
 - pengaturan aplikasi (nama toko, dan sebagainya).
 
 Data ini disimpan di **penyimpanan internal HP Anda** (database aplikasi). Aplikasi berjalan penuh tanpa internet.
@@ -44,39 +44,48 @@ Kwitansi, nota, jadwal cicilan, pengingat, dan laporan hanya dikirim ketika **An
 tombol bagikan. Aplikasi membuka WhatsApp (atau aplikasi pilihan Anda) dengan teks/gambar yang sudah
 disiapkan; Anda yang memutuskan mengirimnya. Pengembang tidak menerima salinannya.
 
-## 4. Backup manual ke file
+## 4. Kamera dan printer Bluetooth
+
+- **Kamera** hanya dipakai saat Anda menekan tombol scan barcode di kasir atau form produk. Gambar diolah
+  langsung di HP untuk membaca barcode, tidak disimpan, dan tidak dikirim ke pengembang. Pembaca barcode
+  memakai Google ML Kit, yang dapat mengirim data diagnostik dan pemakaian ke Google sesuai
+  [ketentuan ML Kit](https://developers.google.com/ml-kit/android-data-disclosure).
+- **Bluetooth** hanya dipakai untuk mengirim struk ke printer thermal yang sudah Anda pasangkan di HP.
+  Aplikasi tidak memindai perangkat di sekitar dan tidak memakai lokasi.
+
+## 5. Backup manual ke file
 
 **Simpan ke file** membuat file backup yang Anda simpan atau bagikan sendiri. File itu berisi seluruh
 data aplikasi; simpan di tempat yang aman.
 
-## 5. Yang tidak dilakukan aplikasi
+## 6. Yang tidak dilakukan aplikasi
 
 - Tidak ada akun/registrasi di server pengembang.
-- Tidak ada iklan, analitik, atau pelacak pihak ketiga.
+- Tidak ada iklan, analitik, atau pelacak pihak ketiga (selain data diagnostik ML Kit untuk pembaca barcode, lihat bagian 4).
 - Tidak mengakses kontak, lokasi, log panggilan, atau galeri foto di luar foto yang Anda pilih sendiri untuk produk.
 - Tidak menjual atau membagikan data kepada siapa pun.
 - Aplikasi **tidak menyediakan atau menyalurkan pinjaman uang**. Aplikasi ini hanya alat pencatatan
   penjualan barang secara tunai maupun cicilan antara Anda dan customer Anda.
 
-## 6. Data customer Anda
+## 7. Data customer Anda
 
 Anda bertanggung jawab atas data customer yang Anda catat. Kami menyarankan hanya mencatat data yang
 diperlukan untuk transaksi dan menghapus data yang tidak dipakai lagi.
 
-## 7. Menghapus data
+## 8. Menghapus data
 
 - Hapus data tertentu langsung di aplikasi (customer, produk, transaksi).
 - Hapus semua data: **Pengaturan Android → Aplikasi → Laris → Penyimpanan → Hapus data**, atau uninstall aplikasi.
 - Hapus backup di Drive: buka Google Drive, hapus folder **Laris Backup**.
 
-## 8. Anak-anak
+## 9. Anak-anak
 
 Aplikasi ditujukan untuk pelaku usaha dewasa dan tidak ditujukan untuk anak-anak.
 
-## 9. Perubahan kebijakan
+## 10. Perubahan kebijakan
 
 Jika kebijakan ini berubah, versi terbaru dipasang di halaman ini dengan tanggal berlaku yang baru.
 
-## 10. Kontak
+## 11. Kontak
 
 Pertanyaan tentang privasi: [budipermadi@fiznet.web.id](mailto:budipermadi@fiznet.web.id)
