@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Kebijakan Privasi — Laris: Kasir & Cicilan
 
-_Berlaku sejak: 19 Oktober 2026 (diperbarui untuk fitur kasir)_
+_Berlaku sejak: 19 Oktober 2026 (diperbarui untuk Laris Pro)_
 
 Laris ("aplikasi") adalah aplikasi Android untuk mencatat penjualan, pembelian, stok, dan cicilan
 pembayaran barang bagi usaha kecil. Kebijakan ini menjelaskan data apa yang diolah aplikasi dan ke mana data itu pergi.
@@ -59,7 +59,19 @@ disiapkan; Anda yang memutuskan mengirimnya. Pengembang tidak menerima salinanny
 **Simpan ke file** membuat file backup yang Anda simpan atau bagikan sendiri. File itu berisi seluruh
 data aplikasi; simpan di tempat yang aman.
 
-## 6. Yang tidak dilakukan aplikasi
+## 6. Laris Pro (pembelian dalam aplikasi)
+
+Laris Pro dijual sebagai langganan bulanan atau pembelian sekali bayar lewat **Google Play**.
+
+- Pembayaran diproses sepenuhnya oleh Google Play sesuai [Kebijakan Privasi Google](https://policies.google.com/privacy)
+  dan [Persyaratan Layanan Google Play](https://play.google.com/about/play-terms/). Aplikasi dan pengembang tidak
+  menerima nomor kartu, rekening, atau data pembayaran Anda.
+- Aplikasi hanya membaca status pembelian dari Google Play Store di HP (produk apa yang dibeli dan kode
+  pembeliannya) untuk membuka fitur Pro. Status itu disimpan di HP dan tidak dikirim ke server pengembang.
+- Pengembang hanya melihat laporan penjualan agregat yang disediakan Google Play Console untuk semua penjual aplikasi.
+- Langganan bisa dihentikan kapan saja di Google Play Store → Profil → Pembayaran & langganan.
+
+## 7. Yang tidak dilakukan aplikasi
 
 - Tidak ada akun/registrasi di server pengembang.
 - Tidak ada iklan, analitik, atau pelacak pihak ketiga (selain data diagnostik ML Kit untuk pembaca barcode, lihat bagian 4).
@@ -68,25 +80,25 @@ data aplikasi; simpan di tempat yang aman.
 - Aplikasi **tidak menyediakan atau menyalurkan pinjaman uang**. Aplikasi ini hanya alat pencatatan
   penjualan barang secara tunai maupun cicilan antara Anda dan customer Anda.
 
-## 7. Data customer Anda
+## 8. Data customer Anda
 
 Anda bertanggung jawab atas data customer yang Anda catat. Kami menyarankan hanya mencatat data yang
 diperlukan untuk transaksi dan menghapus data yang tidak dipakai lagi.
 
-## 8. Menghapus data
+## 9. Menghapus data
 
 - Hapus data tertentu langsung di aplikasi (customer, produk, transaksi).
 - Hapus semua data: **Pengaturan Android → Aplikasi → Laris → Penyimpanan → Hapus data**, atau uninstall aplikasi.
 - Hapus backup di Drive: buka Google Drive, hapus folder **Laris Backup**.
 
-## 9. Anak-anak
+## 10. Anak-anak
 
 Aplikasi ditujukan untuk pelaku usaha dewasa dan tidak ditujukan untuk anak-anak.
 
-## 10. Perubahan kebijakan
+## 11. Perubahan kebijakan
 
 Jika kebijakan ini berubah, versi terbaru dipasang di halaman ini dengan tanggal berlaku yang baru.
 
-## 11. Kontak
+## 12. Kontak
 
 Pertanyaan tentang privasi: [budipermadi@fiznet.web.id](mailto:budipermadi@fiznet.web.id)
