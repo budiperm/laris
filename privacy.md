@@ -48,7 +48,8 @@ disiapkan; Anda yang memutuskan mengirimnya. Pengembang tidak menerima salinanny
 
 - **Kamera** hanya dipakai saat Anda menekan tombol scan barcode di kasir atau form produk. Gambar diolah
   langsung di HP untuk membaca barcode, tidak disimpan, dan tidak dikirim ke pengembang. Pembaca barcode
-  memakai Google ML Kit, yang dapat mengirim data diagnostik dan pemakaian ke Google sesuai
+  memakai Google ML Kit, yang mengirim data diagnostik ke Google (jenis dan versi perangkat, versi aplikasi,
+  ID per instalasi, kecepatan dan error fitur; bukan gambar kamera dan bukan data transaksi Anda), sesuai
   [ketentuan ML Kit](https://developers.google.com/ml-kit/android-data-disclosure).
 - **Bluetooth** hanya dipakai untuk mengirim struk ke printer thermal yang sudah Anda pasangkan di HP.
   Aplikasi tidak memindai perangkat di sekitar dan tidak memakai lokasi.
