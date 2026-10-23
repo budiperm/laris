@@ -11,4 +11,5 @@ kasir, stok, dan catatan cicilan customer. Semua data disimpan di HP Anda sendir
 opsional ke Google Drive milik Anda.
 
 - [Kebijakan privasi](privacy/)
+- LarisKasbon – Catat Utang: [kebijakan privasi](kasbon/privacy/)
 - Kontak: [budipermadi@fiznet.web.id](mailto:budipermadi@fiznet.web.id)
